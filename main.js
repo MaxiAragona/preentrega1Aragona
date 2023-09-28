@@ -5,7 +5,7 @@ function calcularResultadoMateria() {
     while (true) {
         nota1 = parseFloat(prompt("Ingrese la nota del primer cuatrimestre:"));
         if (!isNaN(nota1)) {
-            break; // Salir del bucle si la nota es válida
+            break; 
         }
         alert("La nota del primer cuatrimestre no es un número válido.");
     }
@@ -14,7 +14,7 @@ function calcularResultadoMateria() {
     while (true) {
         nota2 = parseFloat(prompt("Ingrese la nota del segundo cuatrimestre:"));
         if (!isNaN(nota2)) {
-            break; // Salir del bucle si la nota es válida
+            break; 
         }
         alert("La nota del segundo cuatrimestre no es un número válido.");
     }
@@ -23,7 +23,7 @@ function calcularResultadoMateria() {
     while (true) {
         nota3 = parseFloat(prompt("Ingrese la nota del tercer cuatrimestre:"));
         if (!isNaN(nota3)) {
-            break; // Salir del bucle si la nota es válida
+            break; 
         }
         alert("La nota del tercer cuatrimestre no es un número válido.");
     }
